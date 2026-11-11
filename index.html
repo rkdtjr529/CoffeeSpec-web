@@ -23,9 +23,9 @@
       var canvas = document.querySelector("#unity-canvas");
       var buildUrl = "Build";
       var config = {
-        dataUrl: buildUrl + "/89ec76658ffeed764be86b2106b37559.data.unityweb",
+        dataUrl: buildUrl + "/4363a4df1a453d3d82567cafaa2412dd.data.unityweb",
         frameworkUrl: buildUrl + "/8ea471f36a21dbf100fc68e3e4e5c78f.framework.js.unityweb",
-        codeUrl: buildUrl + "/681b0c00a8a9bd3e5d1fc1370a4b59bd.wasm.unityweb",
+        codeUrl: buildUrl + "/c54568df223f7fb861ebfddcb825ec14.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PG",
         productName: "CoffeeSpec",
@@ -36,7 +36,7 @@
         },
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/1dfb13992354403864c2afbc6411d98f.loader.js";
+      script.src = buildUrl + "/f6bdd2ac71426cfc289c6f2013fb27bc.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           document.querySelector("#fill").style.width = (100 * progress) + "%";
