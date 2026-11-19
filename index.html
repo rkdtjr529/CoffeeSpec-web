@@ -23,9 +23,9 @@
       var canvas = document.querySelector("#unity-canvas");
       var buildUrl = "Build";
       var config = {
-        dataUrl: buildUrl + "/e960cfde9bda1c06104771b045082583.data.unityweb",
+        dataUrl: buildUrl + "/701d3f3266c8fd73f86cecf7b92ec7d4.data.unityweb",
         frameworkUrl: buildUrl + "/a56f3bd49533184144d21b6303c68271.framework.js.unityweb",
-        codeUrl: buildUrl + "/ba296db83878b92b36c6e66b4ad6908b.wasm.unityweb",
+        codeUrl: buildUrl + "/1799a912778375df9dc88930240878f6.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PG",
         productName: "Cat Script",
@@ -36,7 +36,7 @@
         },
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/612e9c150a8f8c32e97aef96eeb117e2.loader.js";
+      script.src = buildUrl + "/2a3dd6088948343c1cd3a118090c74c3.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           document.querySelector("#fill").style.width = (100 * progress) + "%";
